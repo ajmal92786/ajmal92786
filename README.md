@@ -85,8 +85,8 @@ I enjoy working on full-stack web development and have a knack for building inte
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=python&logoColor=white)
 
-<!--![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?&logo=TypeScript&logoColor=white)  
-![Java](https://img.shields.io/badge/-Java-007396?&logo=java)  
+<!--![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?&logo=TypeScript&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?&logo=java)
 ![C++](https://img.shields.io/badge/-C++-00599C?&logo=cplusplus&logoColor=white)-->
 
 ##### Web Technologies
