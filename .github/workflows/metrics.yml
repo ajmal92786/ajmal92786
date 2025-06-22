@@ -1,6 +1,6 @@
 name: GitHub Metrics
 on:
-  schedule: [{ cron: "0 * * * *" }]
+  schedule: [{ cron: "0 2 * * *" }] # Every day at 2:00 AM IST
   workflow_dispatch:
 
 jobs:
@@ -9,12 +9,15 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics.svg
+          # Token to access GitHub API (defined in repo secrets)
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
           base: header, repositories, metadata
           config_timezone: Asia/Kolkata
+
+          # Plugins (customizable)
           plugin_languages: yes
-          plugin_streak: yes
           plugin_achievements: yes
-          plugin_notable: yes
+          plugin_streak: yes
           plugin_isocalendar: yes
+          plugin_notable: yes
